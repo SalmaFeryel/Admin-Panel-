@@ -1,0 +1,26 @@
+<h1>Admin Panel</h1>
+<app-new-course *ngIf="this.Service.showAddDialog"></app-new-course>
+<app-details-course [course]="selectedCourse" *ngIf="this.Service.showDetailDialog"></app-details-course>
+<app-update-course [course]="selectedCourse" *ngIf="this.Service.showUpdateDialog"></app-update-course>
+<button (click)="this.Service.showAddDialog=true">New</button>
+<table class="table table-hover">
+    <thead>
+      <tr>
+        <th scope="col">Title</th>
+        <th scope="col">Read</th>
+        <th scope="col">Update</th>
+
+
+        <th scope="col">Delete</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tbody>
+        <tr *ngFor="let course of cours">
+          <th>{{course.name}}</th>
+          <td><fa-icon [icon]="faListDots" (click)="this.Service.showDetailDialog=true; openDialog(course)"></fa-icon></td>
+          <td><fa-icon [icon]="faPen"  (click)="this.Service.showUpdateDialog=true; openDialog(course)"></fa-icon></td>
+          <td><fa-icon [icon]="faTrash" (click)="deleteCourse(course)"></fa-icon></td>
+        </tr>
+      </tbody>
+  </table>

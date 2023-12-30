@@ -1,0 +1,40 @@
+{
+  "Courses": [
+    {
+      "name": "Springboot / Angular",
+      "price": "350",
+      "image": "https://miro.medium.com/v2/resize:fit:785/1*0OzbXPxCkPsbp-np2BUlWg.png",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Node JS / React",
+      "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--Qhu3PUis--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_880/https://dev-to-uploads.s3.amazonaws.com/uploads/articles/y63ie8bmktwik5w3mhlg.png",
+      "price": 350
+    },
+    {
+      "id": 3,
+      "name": "Flutter / Firebase",
+      "image": "https://i.ytimg.com/vi/IPMIcGTzxGc/maxresdefault.jpg",
+      "price": 350
+    },
+    {
+      "id": 4,
+      "name": "Business Intelligence",
+      "image": "https://www.cxtoday.com/wp-content/uploads/2022/07/Top-8-Business-Intelligence-Tools.jpeg",
+      "price": 350
+    },
+    {
+      "id": 5,
+      "name": "Artificial Intelligence",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9d/Artificial_intelligence_Reasoning%2C_problem-solving.jpg/800px-Artificial_intelligence_Reasoning%2C_problem-solving.jpg",
+      "price": 350
+    },
+    {
+      "id": 6,
+      "name": "Devops",
+      "image": "https://media.geeksforgeeks.org/wp-content/uploads/20230410112114/DevOps.png",
+      "price": 350
+    }
+  ]
+}

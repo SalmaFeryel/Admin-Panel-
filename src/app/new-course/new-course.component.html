@@ -1,0 +1,17 @@
+<div class="dialog">
+    <form [formGroup]="addForm" (ngSubmit)="addNew()">
+    <div class="mb-3">
+      <label for="title" class="form-label">Title</label>
+      <input type="text" class="form-control" id="title" formControlName="name">
+    </div>
+    <div class="mb-3">
+      <label for="price" class="form-label">Price</label>
+      <input type="text" class="form-control" id="price" formControlName="price">
+    </div>
+    <div class="mb-3">
+        <label for="img" class="form-label">Image Link</label>
+        <input type="text" class="form-control" id="img" formControlName="image">
+      </div>
+    <button type="submit" class="btn btn-primary">Add Course</button>
+  </form>
+</div>
